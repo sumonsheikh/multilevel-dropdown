@@ -27,7 +27,7 @@ export const AppProvider = ({children}) =>{
                 openSidebar,
                 closeSubmenu,
                 openSubmenu,
-                closeSubmenu
+                closeSidebar
             }}
         >
             {children}
