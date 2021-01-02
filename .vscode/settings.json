@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Andromeda Colorizer",
+    "editor.fontLigatures": null,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": " Consolas, 'Courier New', monospace,",
+    "editor.minimap.scale": 2,
+    "editor.fontSize": 16,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark"
+}
