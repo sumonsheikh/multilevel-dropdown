@@ -1,10 +1,13 @@
 import React from 'react';
+import { useGlobalContext } from '../context';
+
 
 const  SubMenu = () => {
+    const { openSubmenu} = useGlobalContext();
     return (
-        <div>
-            <h2>SubMenu component</h2>
-        </div>
+        <aside className={`${openSubmenu ? 'submenu show': 'submenu'}`} >
+                submenu
+        </aside>
     )
 }
 export default SubMenu;
