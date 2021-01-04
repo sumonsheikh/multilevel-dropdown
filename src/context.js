@@ -19,10 +19,10 @@ export const AppProvider = ({children}) =>{
         const page = sublinks.find((link) => link.page === text);
         setPage(page);
         setLocation( coordinates );
-        setIsSidebarOpen( true );
+        setIsSubmenuOpen( true );
     }
     const closeSubmenu = () =>{
-        setIsSidebarOpen(false);
+        setIsSubmenuOpen(false);
     }
     return(
         <AppContext.Provider
