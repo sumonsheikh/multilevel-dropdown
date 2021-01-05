@@ -20,9 +20,11 @@ export const AppProvider = ({children}) =>{
         setPage(page);
         setLocation( coordinates );
         setIsSubmenuOpen( true );
+        console.log("submenu open");
     }
     const closeSubmenu = () =>{
         setIsSubmenuOpen(false);
+        console.log("submenu close");
     }
     return(
         <AppContext.Provider
