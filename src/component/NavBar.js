@@ -14,8 +14,9 @@ const  NavBar = ( ) => {
         openSubmenu( page, { center, bottom });
     }
     const handleSubmenu= (e )=>{
-        if(e.target.classList.contains('links-btn')){
+        if(!e.target.classList.contains('link-btn')){
             closeSubmenu();
+            console.log('submenu close outside nav button');
         }
     }
     return (
